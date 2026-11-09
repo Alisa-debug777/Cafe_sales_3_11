@@ -8,7 +8,7 @@ cafe_sales_3_11/
 ├── README.md
 ├── data/
 │   ├── dirty_cafe_sales.csv
-│   └── cafe_sales_clean.csv
+│   └── project_cafe_sales_clean.csv
 ├── notebooks/
 │   ├── cafe_sales.ipynb
 │   └── requirements.txt
