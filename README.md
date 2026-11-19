@@ -43,7 +43,7 @@ This repository contains a café sales analysis project: from data cleaning in P
 
 ### Що показує дашборд
 
-**Інтерактивний дашборд:** [Відкрити в Tableau Public](https://public.tableau.com:9443/views/dashboard_17950861745530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Інтерактивний дашборд:** [Відкрити в Tableau Public](https://public.tableau.com/views/dashboard_17950861745530/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 | Візуалізація | Що показує |
 |---|---|
@@ -55,7 +55,7 @@ This repository contains a café sales analysis project: from data cleaning in P
 
 ### What the dashboard shows
 
-**Interactive dashboard:** [Open on Tableau Public](https://public.tableau.com:9443/views/dashboard_17950861745530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Interactive dashboard:** [Open on Tableau Public](https://public.tableau.com/views/dashboard_17950861745530/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 | Block | Content |
 |---|---|
