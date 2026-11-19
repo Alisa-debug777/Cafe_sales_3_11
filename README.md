@@ -14,7 +14,7 @@ This repository contains a café sales analysis project: from data cleaning in P
 - Дублікатів немає (ні повних рядків, ні повторів Transaction ID).
 - "ERROR" і "UNKNOWN" (3 256 значень у 7 колонках) замінено на пропуски (NaN).
 - Назви колонок приведено до формату `snake_case`; `quantity`, `price_per_unit`, `total_spent` переведено в числа, `transaction_date` у дату.
-- Пропущені `item` відновлено за ціною, якщо ціна однозначно визначає товар (489 рядків: 1 → Cookie, 2 → Coffee, 5 → Salad).
+- Пропущені `item` відновлено за ціною, якщо ціна однозначно визначає товар (489 рядків: 1 → Cookie, 1,5 → Tea, 2 → Coffee, 5 → Salad).
 - Для цін 3 (Cake / Juice) і 4 (Sandwich / Smoothie) товар визначається неоднозначно: заповнено випадково за часткою кожного товару (474 рядки). Ці рядки позначено `item_guessed = True`. Рейтинг товарів за виторгом без них не змінюється.
 - 6 рядків, де товар визначити не вдалося, позначено "Unknown".
 - Пропуски в `payment_method` і `location` замінено на "Unknown", бо їх надто багато (32% і 40%), щоб видаляти.
@@ -32,7 +32,7 @@ This repository contains a café sales analysis project: from data cleaning in P
 - No duplicates found (neither full rows nor repeated Transaction IDs).
 - "ERROR" and "UNKNOWN" (3,256 values across 7 columns) were replaced with missing values (NaN).
 - Column names were converted to `snake_case`; `quantity`, `price_per_unit` and `total_spent` were converted to numbers, `transaction_date` to a date.
-- Missing `item` values were restored from the price when the price identifies the item unambiguously (489 rows: 1 → Cookie, 2 → Coffee, 5 → Salad).
+- Missing `item` values were restored from the price when the price identifies the item unambiguously (489 rows: 1 → Cookie, 1.5 → Tea, 2 → Coffee, 5 → Salad).
 - Prices 3 (Cake / Juice) and 4 (Sandwich / Smoothie) are ambiguous, so the item was filled randomly in proportion to each item's share (474 rows). These rows are flagged with `item_guessed = True`. The item ranking by revenue does not change without them.
 - 6 rows where the item could not be determined were labeled "Unknown".
 - Missing `payment_method` and `location` values were replaced with "Unknown", because there are too many of them (32% and 40%) to drop.
