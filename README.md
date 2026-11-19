@@ -8,6 +8,24 @@
 Цей репозиторій містить проєкт з аналізу продажів кав'ярні: від очищення даних у Python до побудови інтерактивного дашборду в Tableau.
 This repository contains a café sales analysis project: from data cleaning in Python to an interactive dashboard in Tableau.
 
+## Дані та очищення
+
+**Джерело:** Kaggle, Cafe Sales (dirty dataset).
+**До очищення:** 10 000 транзакцій, 8 колонок (Transaction ID, Item, Quantity, Price Per Unit, Total Spent, Payment Method, Location, Transaction Date). Усі колонки мали тип `object`, бо в них були слова-помилки.
+
+**Що зроблено:**
+- Дублікатів немає (ні повних рядків, ні повторів Transaction ID).
+- "ERROR" і "UNKNOWN" (3 256 значень у 7 колонках) замінено на пропуски (NaN).
+- Назви колонок приведено до формату `snake_case`; `quantity`, `price_per_unit`, `total_spent` переведено в числа, `transaction_date` у дату.
+- Пропущені `item` відновлено за ціною, якщо ціна однозначно визначає товар (489 рядків: 1 → Cookie, 2 → Coffee, 5 → Salad).
+- Для цін 3 (Cake / Juice) і 4 (Sandwich / Smoothie) товар визначається неоднозначно: заповнено випадково за часткою кожного товару (474 рядки). Ці рядки позначено `item_guessed = True`. Рейтинг товарів за виторгом без них не змінюється.
+- 6 рядків, де товар визначити не вдалося, позначено "Unknown".
+- Пропуски в `payment_method` і `location` замінено на "Unknown", бо їх надто багато (32% і 40%), щоб видаляти.
+- Видалено рядки без дати, кількості, ціни або суми, які не вдалося відновити.
+- Додано колонки: month, month_name, weekday, weekday_name, is_weekend.
+
+**Після очищення:** 9 514 записів. Видалено 486 рядків (4,86%). Пропусків у таблиці немає.
+
 ### Що показує дашборд
 
 | **KPI** | Виторг 84 868,50 · середній чек 8,92 · кількість замовлень 9 514 |
