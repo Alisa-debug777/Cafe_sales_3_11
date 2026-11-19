@@ -80,12 +80,19 @@ The dashboard is interactive: revenue and charts are recalculated based on the s
 - The largest cells of the heat map belong to the Unknown category (unknown payment method and location), so conclusions for these breakdowns apply only to the known part of the data.
 
   
-Cafe Sales & Performance Dashboard 2023
+## Рекомендації
 
-Focus on top performers: Salad, Sandwich and Smoothie generate 55% of revenue (46,740 of 84,869). Keep them in stock at peak hours and feature them on the menu.
-Lift the weakest items: Cookie (3,427) and Tea (5,162) sell the least. Test combo deals with top sellers (e.g. "Sandwich + Cookie") or review their prices.
-No weekday or weekend gap: the average order value stays between 8.72 and 9.20 every day, and monthly revenue stays within about ±6% of the average. Weekday-specific staffing or promotions are not supported by this data.
-Improve data capture: 31% of revenue has an unknown payment method and 40% an unknown location. Record both at checkout so future analysis can cover the full picture.
+- **Зосередитися на лідерах.** Salad, Sandwich і Smoothie дають 55% виторгу (46 740 із 84 869). Їх варто завжди тримати в наявності й виділити в меню.
+- **Підтягнути слабкі позиції.** Cookie (3 427) і Tea (5 162) продаються найменше. Варто протестувати комбо-пропозиції з популярними товарами (наприклад, «Sandwich + Cookie») або переглянути ціни.
+- **Не будувати стратегію на днях тижня.** Середній чек стабільний (8,72–9,20) у всі дні, а виторг по місяцях відхиляється від середнього від −6% до +4%. Окремий графік персоналу чи акцій для вихідних ці дані не підтримують.
+- **Покращити збір даних.** 31% виторгу має невідомий спосіб оплати, а 40% невідому локацію. Варто фіксувати обидва поля на касі, а також час транзакції, щоб у майбутньому можна було аналізувати години пік.
+
+## Recommendations
+
+- **Focus on top performers.** Salad, Sandwich and Smoothie generate 55% of revenue (46,740 of 84,869). Keep them in stock and feature them on the menu.
+- **Lift the weakest items.** Cookie (3,427) and Tea (5,162) sell the least. Test combo deals with top sellers (e.g. "Sandwich + Cookie") or review their prices.
+- **Do not base strategy on weekdays.** The average order value stays between 8.72 and 9.20 every day, and monthly revenue stays within −6% to +4% of the average. Weekday-specific staffing or promotions are not supported by this data.
+- **Improve data capture.** 31% of revenue has an unknown payment method and 40% an unknown location. Record both at checkout, along with the transaction time, so future analysis can cover the full picture, including peak hours.
 
 ## Структура репозиторію
 
