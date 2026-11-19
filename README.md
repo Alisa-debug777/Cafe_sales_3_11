@@ -43,6 +43,8 @@ This repository contains a café sales analysis project: from data cleaning in P
 
 ### Що показує дашборд
 
+**Інтерактивний дашборд:** [Відкрити в Tableau Public](https://public.tableau.com:9443/views/dashboard_17950861745530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 | Візуалізація | Що показує |
 |---|---|
 | KPI | Виторг 84 868,50 · середній чек 8,92 · кількість замовлень 9 514 |
@@ -52,6 +54,8 @@ This repository contains a café sales analysis project: from data cleaning in P
 | Avg Check by Day of Week | Середній чек по днях тижня (8,72–9,20), вихідні виділено світлішим кольором |
 
 ### What the dashboard shows
+
+**Interactive dashboard:** [Open on Tableau Public](https://public.tableau.com:9443/views/dashboard_17950861745530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 | Block | Content |
 |---|---|
